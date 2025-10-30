@@ -10,7 +10,7 @@ export default function CartWidget() {
         <Link to="/cart" className="cart-link">
         <div className="cart-widget">
         <div className="cart-icon-container">
-            <img className="cart-icon" src="./src/assets/carrito.jpg" alt="Carrito" />
+            <img className="cart-icon" src="./Carrito.jpg" alt="Carrito" />
             {countItems() > 0 && (
             <span className="cart-bubble">{countItems()}</span>
             )}
