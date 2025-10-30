@@ -1,7 +1,7 @@
 import './NavBar.css'
 import CartWidget from './CartWidget'
 import { Link } from "react-router";
-import logoriver from "../../assets/logoriver.png";
+import logoriver from "../../assets/media/logoriver.png";
 
 export default function NavBar(){
     return(
