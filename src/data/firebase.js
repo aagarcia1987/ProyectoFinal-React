@@ -3,12 +3,12 @@ import {collection, doc, getDocs, getDoc, query, where, addDoc, getFirestore } f
 import products from "./products";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDvmdkg3tcnkXm5JIwQryeQ9tr7ZvIKgSY",
+  apiKey: import.meta.env.VITE_FS_API_KEY,
   authDomain: "react-proyecto-c86ec.firebaseapp.com",
-  projectId: "react-proyecto-c86ec",
+  projectId: import.meta.env.VITE_FS_PROJECT_ID,
   storageBucket: "react-proyecto-c86ec.firebasestorage.app",
   messagingSenderId: "106017659303",
-  appId: "1:106017659303:web:8e6e6f0b6ccd88994cfe82"
+  appId: import.meta.env.VITE_FS_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
