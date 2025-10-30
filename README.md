@@ -37,8 +37,7 @@ Esta es una aplicación web de e-commerce desarrollada con **React**, que permit
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/e-shop-react.git
-cd e-shop-react
+https://github.com/aagarcia1987/ProyectoFinal-React.git
 
 # Instalar dependencias
 npm install
