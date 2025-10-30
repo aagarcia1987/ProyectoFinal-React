@@ -8,7 +8,7 @@ Esta es una aplicación web de e-commerce desarrollada con **React**, que permit
 - **React Router DOM** para navegación entre páginas
 - **Context API** para gestión global del carrito
 - **CSS Modules / Styled Components** para estilos
-- **FakeStore API / JSON local** como fuente de productos
+- **Firebase** como fuente de productos
 
 ## 📦 Estructura del proyecto
 
